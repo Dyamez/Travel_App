@@ -21,12 +21,7 @@ Issues:
 
 Navbar on Header buttons not aligned to the end.
 
-## To do...
 
-mongodb || sql integration,
-Footer,
-Bootstrap/CSS and styling needs work?,
-General code cleanup for theoretical brownie points.
 
 # Credits/References:
 
@@ -47,3 +42,5 @@ Webdecoded: https://webdecoded.notion.site/webdecoded/Dev-Resources-40656a79e51e
 Coding with Muhib: https://www.buymeacoffee.com/codingwithmuhib
 
 map image: https://www.tsiosophy.com/wp/wp-content/uploads/2011/04/Worldmap_LandAndPolitical.jpg
+
+https://stackoverflow.com/questions/51126472/how-to-organise-file-structure-of-backend-and-frontend-in-mern
