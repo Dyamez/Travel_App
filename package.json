@@ -4,7 +4,7 @@
   "description": "Local: http://localhost:3000",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently \"cd backend && nodemon\" \"cd frontend && nodemon\" ",
+    "dev": "concurrently \"cd backend && npm run start-dev\" \"cd frontend && npm run start\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
