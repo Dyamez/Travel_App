@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const getDb = (url) => {
+export default function getDb(url) {
   const [data, setData] = useState([]);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(false);
@@ -32,6 +32,4 @@ const getDb = (url) => {
     error,
     loading,
   };
-};
-
-export default getDb;
+}
