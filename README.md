@@ -2,8 +2,16 @@
 
 ## Team Omega Ω
 
-## cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'.
+## Run "npm run dev" on root. It would run both frontend and backend(mongoDB) concurrently.
 
+Local: http://localhost:3000
+
+### Originally from repo https://github.com/Dyamez/tourApp 9/4/23 with 48 commits on 2 branches.
+
+## Due to file size error by github, migrated the project here @ https://github.com/Dyamez/Travel_App
+
+changes:
+cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'.
 Same goes to modify the /backend folder.
 Then you can nodemon or npm start-dev to see the project.
 
