@@ -14,7 +14,7 @@ Local: http://localhost:3000
 changes:
 cd/change directory/go into the /frontend folder, then from the VSCode terminal, run 'npm -i -y'.
 Same goes to modify the /backend folder.
-Then you can nodemon or npm start-dev to see the project.
+Go Back to root directory, run npm i, then start the project with "npm run dev"
 
 Issues:
 8/29
