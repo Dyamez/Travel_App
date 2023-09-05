@@ -9,8 +9,8 @@ export default function FeaturedEventList() {
     data: featuredEvents,
     loading,
     error,
-  } = getDb(`${BASE_URL}/events/search/getFeaturedEvent`);
-
+  } = getDb(`${BASE_URL}/tours/search/getFeaturedTour`);
+/
   return (
     <>
       {loading && <h4>Loading MongoDB database... hopefully
