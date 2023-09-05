@@ -3,6 +3,7 @@ import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
 import getDb from "./../../line/getDb";
 import { BASE_URL } from "./../../tools/configuration";
+//import { localDB } from "../../assets/data/events";
 
 export default function FeaturedEventList() {
   const {
@@ -10,6 +11,7 @@ export default function FeaturedEventList() {
     loading,
     error,
   } = getDb(`${BASE_URL}/events/search/getFeaturedEvent`);
+  //(`{localDB}/events/search/getFeaturedEvent`)
 
   return (
     <>
