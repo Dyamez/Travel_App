@@ -2,19 +2,23 @@ import React from "react";
 import TripList from "../../access/TripList";
 import { Col } from "reactstrap";
 import getDb from "./../../line/getDb";
-import { BASE_URL } from "./../../tools/configuration";
+//import { BASE_URL } from "./../../tools/configuration";
 
 export default function FeaturedEventList() {
   const {
     data: featuredEvents,
     loading,
     error,
-  } = getDb(`${BASE_URL}/tours/search/getFeaturedTour`);
-/
+  } = getDb(
+    `https://backend-fun.onrender.com/api/v1/tours/search/getFeaturedTour`
+  );
+  //${BASE_URL}/tours/search/getFeaturedTour
+
   return (
     <>
-      {loading && <h4>Loading MongoDB database... hopefully
-      its online, promise!</h4>}
+      {loading && (
+        <h4>Loading MongoDB database... hopefully its online, promise!</h4>
+      )}
       {error && <h4>{error}</h4>}
       {!loading &&
         !error &&

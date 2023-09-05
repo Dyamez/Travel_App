@@ -2,7 +2,7 @@ import React from "react";
 //import ShownNotes from "../components/Shown/ShownNotes";
 import { Row, Container, Col } from "reactstrap";
 import UnderText from "../access/underText";
-//import FeaturedEventList from "../components/FeaturedEventList/FeaturedEventList";
+import FeaturedEventList from "../components/FeaturedEventList/FeaturedEventList";
 
 export default function Details() {
   return (
@@ -58,8 +58,8 @@ export default function Details() {
               />
               <h3 className="shownTitle">Recommended Tour Experience</h3>
             </Col>
-            {/*backend MongoDB list <FeaturedEventList />*/}
-            
+            {/*backend MongoDB list */}
+            <FeaturedEventList />
           </Row>
         </Container>
       </section>
