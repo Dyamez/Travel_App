@@ -19,7 +19,7 @@ export default function SearchBox() {
     }
 
     const res = await fetch(
-      `${BASE_URL}/events/search/getEventBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
+      `${BASE_URL}/tours/search/getTourBySearch?city=${city}&distance=${distance}&maxGroupSize=${maxGroupSize}`
     );
 
     if (!res.ok) alert("Something went wrong");
