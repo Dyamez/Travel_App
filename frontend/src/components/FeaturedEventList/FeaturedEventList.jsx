@@ -13,7 +13,8 @@ export default function FeaturedEventList() {
 
   return (
     <>
-      {loading && <h4>Loading.....</h4>}
+      {loading && <h4>Loading MongoDB database... hopefully
+      its online, promise!</h4>}
       {error && <h4>{error}</h4>}
       {!loading &&
         !error &&
