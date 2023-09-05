@@ -1,1 +1,1 @@
-export const BASE_URL = "https://tour-full-mern.onrender.com/";
+export const BASE_URL = "https://backend-fun.onrender.com/";
