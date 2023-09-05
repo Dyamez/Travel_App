@@ -1,5 +1,6 @@
 # # Milestone II
-https://travel-app-lf85.onrender.com/home
+
+https://travel-app-lf85.onrender.com
 
 ## Team Omega Ω
 
@@ -20,8 +21,6 @@ Issues:
 8/29
 
 Navbar on Header buttons not aligned to the end.
-
-
 
 # Credits/References:
 
