@@ -58,8 +58,8 @@ export default function Details() {
               />
               <h3 className="shownTitle">Recommended Tour Experience</h3>
             </Col>
-            {/*backend MongoDB list*/}
-            <FeaturedEventList />
+            {/*backend MongoDB list <FeaturedEventList />*/}
+            
           </Row>
         </Container>
       </section>
