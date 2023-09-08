@@ -41,11 +41,7 @@ export default function Home() {
               <div className="texted_imgBox gap-5">
                 <img src={taalImg} alt="taal volcano" />
               </div>
-              <Col lg="20">
-                <div className="texted_imgBox gap-5">
-                  <img src={vegasImg} alt="vegas over strip" />
-                </div>
-              </Col>
+              
             </Col>
           </Row>
         </Container>
